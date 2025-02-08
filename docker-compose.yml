@@ -34,7 +34,7 @@ services:
       - ner
   ner:
     # image will be pulled from github
-    image: ghcr.io/eeditiones/tei-publisher-ner/teipublisher-ner:master
+    image: ghcr.io/Nugus53/tei-publisher-ner/teipublisher-ner:master
     # enable if you want to build from source:
     # build:
     #   context: https://github.com/eeditiones/tei-publisher-ner.git#master
